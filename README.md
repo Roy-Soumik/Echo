@@ -1,42 +1,62 @@
-# Echo Podcast App
-
-This is an [Echo Podcast App](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the app by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, check out the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Echo Podcast App is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Sure! Here's a basic README.md for the Echo AI Podcast app:
 
 ---
 
-Feel free to make further adjustments if needed!
+# Echo AI Podcast App
+
+Welcome to the Echo AI Podcast App! This application, built with Next.js, leverages AI models to create podcast episodes from user-provided scripts. It generates audio and thumbnails automatically, and provides text-to-speech functionality with customizable voice and accents.
+
+## Features
+
+- **AI-Generated Audio & Thumbnails**: Automatically generates high-quality audio and thumbnail images based on the scripts you provide.
+- **Text-to-Speech**: Converts your scripts into audio with a variety of voices and accents to choose from.
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/echo-ai-podcast-app.git
+   ```
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd echo-ai-podcast-app
+   ```
+
+3. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Set Up Environment Variables**
+
+   Create a `.env.local` file in the root of the project and add the necessary environment variables. For example:
+
+   ```env
+   NEXT_PUBLIC_API_KEY=your_api_key_here
+   ```
+
+5. **Run the Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+## Usage
+
+1. **Create a New Podcast Episode**
+
+   - Navigate to the "Create" page.
+   - Enter your script in the provided text area.
+   - Choose your preferred voice and accent options.
+   - Submit your script to generate the audio and thumbnail.
+
+2. **View Generated Content**
+
+   - Go to the "Episodes" page to view and listen to your generated podcast episodes.
+   - Download or share the audio and thumbnail as needed.
