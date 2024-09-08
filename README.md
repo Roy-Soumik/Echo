@@ -1,7 +1,3 @@
-Sure! Here's a basic README.md for the Echo AI Podcast app:
-
----
-
 # Echo AI Podcast App
 
 Welcome to the Echo AI Podcast App! This application, built with Next.js, leverages AI models to create podcast episodes from user-provided scripts. It generates audio and thumbnails automatically, and provides text-to-speech functionality with customizable voice and accents.
